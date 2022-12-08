@@ -11,7 +11,6 @@ import (
 
 func Test_addMetadataParams(t *testing.T) {
 	child := map[string]interface{}{"child": "James"}
-	// parent := map[string]interface{}{"mom": child}
 	meta := map[string]interface{}{"parent": child, "ref": "ref01"}
 
 	params := _neturl.Values{}
